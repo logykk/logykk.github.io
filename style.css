@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Biome;
+    src: url('assets/font/Biome-W04-Wide.ttf');
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #000;
+    background-image: url('assets/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Biome;
+    color: #fff;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 80px;
+    text-shadow: 0 0 10px #0c8bf3;
+}
+
+a {
+    text-decoration-line: none;
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 0 0 10px #000;
+    line-height: 2;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+.content {
+    padding-top: 5%;
+    padding-left: 15%;
+}
+
+ul {
+    margin-left: 1.5%;
+}
+
+li {
+    list-style-type: '- ';
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 64px;
+        text-align: center;
+    }
+
+    .content {
+        padding-left: 0%;
+    }
+
+    ul {
+        margin-left: 10%;
+    }
+}
