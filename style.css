@@ -27,6 +27,7 @@ p, a {
     font-size: 30px;
     text-shadow: 0 0 10px #000;
     line-height: 2;
+    margin: 0;
 }
 
 p:hover, a:hover {
