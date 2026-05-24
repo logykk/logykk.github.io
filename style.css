@@ -21,7 +21,7 @@ h1 {
     text-shadow: 0 0 10px #0c8bf3;
 }
 
-a {
+p, a {
     text-decoration-line: none;
     color: #fff;
     font-size: 30px;
@@ -29,7 +29,7 @@ a {
     line-height: 2;
 }
 
-a:hover {
+p:hover, a:hover {
     text-decoration-line: underline;
 }
 
