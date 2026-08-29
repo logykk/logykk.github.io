@@ -35,8 +35,7 @@ p:hover, a:hover {
 }
 
 .content {
-    padding-top: 5%;
-    padding-left: 15%;
+    padding: 5% 15%;
 }
 
 ul {
